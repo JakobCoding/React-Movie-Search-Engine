@@ -1,6 +1,7 @@
 import './App.css'
-// imported MovieCard Component that we created 
-import MovieCard from "./components/MovieCard"
+import home from "./pages.home"
+// imported Home Component that we created 
+
 
 
 // In React a function is also known as a Component
@@ -15,10 +16,10 @@ function App() {
     // Inserting a fragment "<> </>"" allows for mulitple div elements within a component 
     // Now to display our imported MovieCard component that we created 
     <>
-    <MovieCard movie={{title: "Jake's Movie", release_date: "2025",}}/>
+      <home />
 
     </>
-  )
+  );
 }
 
 export default App;
