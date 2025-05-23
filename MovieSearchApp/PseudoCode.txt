@@ -9,7 +9,7 @@ The App needs to:
 4. Have a like button on each movie that will add it to favourites
 5. Have a favourites Page that displays favourited movies 
 
-Steps:
+Initial Steps:
 1. Create MovieCard Component
 2. Export Component
 3. Add Component to App.jsx
