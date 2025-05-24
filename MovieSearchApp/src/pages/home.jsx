@@ -24,8 +24,6 @@ function Home() {
     </div>
     );
 }
-
-
 // To see this in effect we need to export the home.jsx page and then import it in our App.jsx 
 
-export default Home;
+export default Home; 

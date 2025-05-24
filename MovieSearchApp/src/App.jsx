@@ -1,5 +1,5 @@
 import './App.css'
-import home from "./pages.home"
+import Home from "/Users/Jleno/source/repos/React-Movie-Search-Engine/MovieSearchApp/src/pages/home"
 // imported Home Component that we created 
 
 
@@ -16,7 +16,7 @@ function App() {
     // Inserting a fragment "<> </>"" allows for mulitple div elements within a component 
     // Now to display our imported MovieCard component that we created 
     <>
-      <home />
+      <Home />
 
     </>
   );
